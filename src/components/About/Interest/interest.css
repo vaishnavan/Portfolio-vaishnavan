@@ -1,0 +1,97 @@
+.interest_main{
+    width: 700px;
+    margin: 40px auto;
+}
+.interest_main h2{
+    text-align: center;
+}
+.interest_area{
+    text-align: center;
+}
+.interest_area img{
+    width: 100px;
+    height: 100px;
+}
+.interestHead_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 0;
+}
+.interest_area{
+    margin: 20px 0;
+}
+.interest_area p{
+    font-size: 20px;
+}
+.interested_quotes{
+    background-image: linear-gradient(rgba(39, 39, 39, 0.466),rgba(22, 22, 22, 0.404)),url("https://image.freepik.com/free-vector/software-development-background_1302-14608.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+.interested_quotes pre{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 24px;
+    line-height: 40px;
+}
+.interested_quotes pre span{
+    color: green;
+    font-size: 34px;
+}
+
+@media only screen and (max-width:768px){
+    .interest_main{
+        width: 600px;
+        margin: 40px auto;
+    }
+    .interestHead_main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 50px 0;
+    }
+    .interested_quotes pre{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .interested_quotes pre span{
+        color: green;
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:600px){
+    .interest_main{
+        width: 320px;
+        margin: 40px auto;
+    }
+    .interestHead_main{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 50px 0;
+    }
+    .interested_quotes{
+        height: 500px;
+    }
+    .interested_quotes pre{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .interested_quotes pre span{
+        color: green;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,12 @@
+.project_comment{
+    padding: 40px;
+    height: 400px;
+    overflow: auto;
+    margin: 10px;
+}
+.projectComment_main h2{
+    text-align: center;
+}
+.projectComment_main{
+    margin-top: 50px;
+}

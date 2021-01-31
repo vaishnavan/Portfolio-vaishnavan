@@ -1,0 +1,81 @@
+.count{
+    width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    height: 100px;
+}
+.Clock_main{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 36px;
+}
+.Clock-content{
+    margin: 0 30px;
+}
+.Clock-content label{
+    color: white;
+    background-color: rgb(88, 127, 255);
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.Clock-content .seconds label{
+    color: red;
+}
+@media only screen and (max-width: 992px){
+    .count{
+        width: 500px;
+        margin: 30px auto;
+        text-align: center;
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .count{
+        width: 400px;
+        margin: 30px auto;
+        text-align: center;
+        height: 100px;
+    }
+    .Clock_main{
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        font-size: 24px;
+    }
+    .Clock-content{
+        margin: 0 20px;
+    }
+    .Clock-content label{
+        color: white;
+        background-color: rgb(88, 127, 255);
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .count{
+        width: 200px;
+        margin: 30px auto;
+        text-align: center;
+        height: 100px;
+    }
+    .Clock_main{
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        font-size: 18px;
+    }
+    .Clock-content{
+        margin: 0 10px;
+    }
+    .Clock-content label{
+        color: white;
+        background-color: rgb(88, 127, 255);
+        padding: 5px 10px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+}

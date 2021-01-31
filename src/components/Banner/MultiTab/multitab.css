@@ -1,0 +1,51 @@
+.multitab_skill{
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+}
+.multitab_skill button{
+    background-color: rgb(28, 104, 245);
+    border: 1px solid blue;
+    outline: none;
+    padding:10px 15px;
+    color: white;
+}
+.multitab_skill button:hover{
+    background-color: rgb(51, 175, 247);
+    cursor: pointer;
+}
+.multitab_content{
+    width: 900px;
+    margin: 30px auto;
+    font-size: 16px;
+    border: 1px solid rgb(235, 234, 232);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 50px;
+}
+.active button{
+    background-color: rgb(51, 175, 247);
+}
+@media screen and (max-width:992px){
+    .multitab_content{
+        width: 700px;
+    }
+}
+@media screen and (max-width:789px){
+    .multitab_content{
+        width: 500px;
+    }
+}
+@media screen and (max-width:600px){
+    .multitab_content{
+        width: 300px;
+        padding: 30px;
+    }
+    .multitab_skill{
+        display: flex;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .multitab_skill button{
+        text-align: center;
+    }
+}

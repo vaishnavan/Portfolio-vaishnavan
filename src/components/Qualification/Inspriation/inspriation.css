@@ -1,0 +1,58 @@
+.inspriation_main{
+    text-align: center;
+    margin-top: 50px 0;
+    padding: 30px 0;
+}
+.swiper-slide img{
+    width: 350px;
+    height: 350px;
+}
+@media only screen and (max-width:992px){
+    .inspriation_main{
+        text-align: center;
+        width: 600px;
+    }
+    .swiper-slide img{
+        width: 350px;
+        height: 350px;
+    }
+}
+@media only screen and (max-width:768px){
+    .inspriation_main{
+        text-align: center;
+        width: 500px;
+    }
+    .swiper-slide img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width:600px){
+    .inspriation_main{
+        text-align: center;
+        width: 300px;
+    }
+    .swiper-slide img{
+        width: 300px;
+        height: 300px;
+    }
+      .swiper-pagination-bullet-active {
+        background-color: #fff;
+        padding: 3px;
+      }
+      .swiper-pagination-bullet{
+        background-color: #fff;
+        padding: 3px;
+      }
+      .swiper-navigation-arrow{
+        background-color: #fff;
+      }
+      .swiper-button-next { 
+        color: white; 
+        font-weight: bolder;
+      }
+      .swiper-button-prev { 
+        color: white;
+        font-weight: bolder; 
+      }
+}

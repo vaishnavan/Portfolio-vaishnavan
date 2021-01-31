@@ -1,0 +1,36 @@
+.footer_main{
+    margin-top: 20px;
+    padding: 40px;
+    background-color: rgb(28, 104, 245);
+    color: white;
+}
+.footer_main a{
+    color: white;
+    font-size: 20px;
+}
+.footer_head p{
+    font-size: 16px;
+}
+.footer_main a:hover{
+    color: white;
+}
+.footer_links{
+    padding: 10px;
+}
+.footer-contact{
+    padding: 10px;
+    font-size: 18px;
+}
+.footer_head{
+    padding: 15px;
+}
+.footer-copyrights p{
+    text-align: center;
+    font-size: 16px;
+}
+@media only screen and (max-width:600px){
+    .footer-copyrights p{
+        text-align: center;
+        font-size: 14px;
+    }
+}

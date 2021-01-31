@@ -1,0 +1,60 @@
+.content_aboutReact{
+    margin: 0 auto;
+    padding: 30px 10px;
+    width: 800px;
+}
+.content_aboutReact p{
+    margin-top: 5px;
+    font-size: 16px;
+}
+.code_display{
+    border-radius: 10px;
+}
+.content_bannerScroll{
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(88, 127, 255);
+    margin: 0 auto;
+    width: 900px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+@media screen and (max-width:992px){
+    .content_bannerScroll{
+        width: 780px;
+    }
+}
+@media screen and (max-width:782px){
+    .content_aboutReact{
+        margin: 0 auto;
+        padding: 30px 10px;
+        width: 500px;
+    }
+    .content_bannerScroll{
+        width: 550px;
+    }
+}
+@media screen and (max-width:602px){
+    .content_aboutReact{
+        margin: 0 auto;
+        padding: 30px 10px;
+        width: 320px;
+    }
+    .content_bannerScroll{
+        width: 320px;
+    }
+}
+.content_aboutReact hr{
+    background-color:  rgb(28, 104, 245);
+    height: 5px;
+    width: 60px;
+    margin: 0;
+    border-radius: 4px;
+}
+.content_update{
+    padding: 20px 10px;
+    text-align: center;
+}
+.content_aboutReact ul li{
+    font-size: 16px;
+}

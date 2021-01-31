@@ -1,0 +1,52 @@
+.education_main{
+    width: 900px;
+    margin: 0 auto;
+}
+.education_main hr{
+    background-color:  rgb(28, 104, 245);
+    height: 5px;
+    width: 60px;
+    margin: 0;
+    border-radius: 4px;
+}
+.education_proExpericence label{
+    display: inline-block;
+    background-color: #e4edf9;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.education_proExpericence ul li{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.education_details{
+    padding: 10px;
+    font-size: 16px;
+}
+.qualification_Topnav{
+    margin-top: 20px;
+}
+@media screen and (max-width:992px){
+    .education_main{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .qualification_Topnav{
+    margin-top: 20px;
+}
+}
+
+@media screen and (max-width:768px){
+    .education_main{
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:600px){
+    .education_main{
+        width: 300px;
+        margin: 0 auto;
+    }
+}

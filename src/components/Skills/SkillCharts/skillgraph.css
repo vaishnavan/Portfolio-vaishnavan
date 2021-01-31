@@ -1,0 +1,50 @@
+.skillgraph_Main{
+    width: 900px;
+    margin: 50px auto;
+}
+.skillgraph_Main hr{
+    background-color:  rgb(28, 104, 245);
+    height: 5px;
+    width: 60px;
+    margin: 0;
+    border-radius: 4px;
+}
+.skillgraph_data{
+    width: 800px;
+    height: auto;
+    margin-top: 40px;
+}
+@media only screen and (max-width:992px){
+    .skillgraph_Main{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .skillgraph_data{
+        width: 600px;
+        height: auto;
+    }
+}
+@media only screen and (max-width:768px){
+    .skillgraph_Main{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .skillgraph_data{
+        width: 450px;
+        height: auto;
+    }
+}
+@media only screen and (max-width:600px){
+    .skillgraph_Main{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .skillgraph_data{
+        width: 320px;
+        height: auto;
+    }
+    .skillgraph_inner{
+        width: 100%;
+        height: 500px;
+    }
+}

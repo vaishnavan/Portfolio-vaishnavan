@@ -27,18 +27,19 @@ class App extends Component {
   }
   render() {
     const { darkMode, mode } = this.state;
+    const modeChange = mode ? 'LightMode' : 'DarkMode'
     return (
       <>
         <div className={darkMode ? "dark-mode" : "light_mode"}>
           <ScrollToTop />
           <Router>
             <Switch>
-              <Route exact path="/" component={() => (<Home handleClick={this.toggleMode} modeChange={mode ? 'LightMode' : 'DarkMode'} />)} />
-              <Route path="/about" component={() => (<About handleClick={this.toggleMode} modeChange={mode ? 'LightMode' : 'DarkMode'} />)} />
-              <Route path="/qualification" component={() => (<Education handleClick={this.toggleMode} modeChange={mode ? 'LightMode' : 'DarkMode'} />)} />
-              <Route path="/skill" component={() => (<Skill handleClick={this.toggleMode} modeChange={mode ? 'LightMode' : 'DarkMode'} />)} />
-              <Route path="/project" component={() => (<Project handleClick={this.toggleMode} modeChange={mode ? 'LightMode' : 'DarkMode'} />)} />
-              <Route path="/contact" component={() => (<Contact handleClick={this.toggleMode} modeChange={mode ? 'LightMode' : 'DarkMode'} />)} />
+              <Route exact path="/" component={() => (<Home handleClick={this.toggleMode} modeChange={modeChange} />)} />
+              <Route path="/about" component={() => (<About handleClick={this.toggleMode} modeChange={modeChange} />)} />
+              <Route path="/qualification" component={() => (<Education handleClick={this.toggleMode} modeChange={modeChange} />)} />
+              <Route path="/skill" component={() => (<Skill handleClick={this.toggleMode} modeChange={modeChange} />)} />
+              <Route path="/project" component={() => (<Project handleClick={this.toggleMode} modeChange={modeChange} />)} />
+              <Route path="/contact" component={() => (<Contact handleClick={this.toggleMode} modeChange={modeChange} />)} />
             </Switch>
           </Router>
         </div>

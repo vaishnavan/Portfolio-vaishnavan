@@ -22,7 +22,7 @@ class Content extends Component {
         return (
             <>
                 <div className="content_update">
-                    <h2>Current Feature Update</h2>
+                    <h2>Current change</h2>
                 </div>
                 <div className="content_bannerScroll">
                     <marquee>In React 16.9, It contains several new features, bugfixes, and new deprecation warnings to help prepare for a future major release.</marquee>

@@ -66,8 +66,7 @@ class Contact extends Component {
                                         <div className="contact_address">
                                             <h3><Icon name="mail" color="blue" size="large" />Email Address</h3>
                                             <div className="contact_para">
-                                                <p>sakthi4645@gmail.com</p>
-                                                <p>Webshine2020@gmail.com</p>
+                                                <p>vaishnavanm5@gmail.com</p>
                                             </div>
                                         </div>
                                         <div className="contact_address">

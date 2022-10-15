@@ -71,7 +71,7 @@ export class SkillGraph extends Component {
             ],
         };
         return (
-            <div className="skillgraph_Main">
+            <div style={{marginTop:"20px"}} className="skillgraph_Main">
                 <h2>Skills Graph</h2>
                 <hr />
                 <div data-aos="zoom-in" className="skillgraph_data">

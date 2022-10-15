@@ -157,6 +157,21 @@ class Skill extends Component {
                                 })}
                             </div>
                         </div>
+                        <div className="certification_main">
+                            <h2>Certification</h2>
+                            <hr />
+                            <div className="certify_img">
+                                <div style={{marginTop:"10px"}} className="display_img">
+                                    <img src="awards/certify1.jpeg" alt="certify" />
+                                </div>
+                                <div style={{marginTop:"10px"}} className="display_img">
+                                    <img src="awards/certify2.jpeg" alt="certify" />
+                                </div>
+                                <div style={{marginTop:"10px"}} className="display_img">
+                                    <img src="awards/certify3.jpeg" alt="certify" />
+                                </div>
+                            </div>
+                        </div>
                         <SkillGraph />
                         <Footer />
                     </div>

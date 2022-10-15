@@ -5,7 +5,7 @@ import './count.css';
 class Count extends Component {
   constructor(props) {
     super(props);
-    this.state = { deadline: "April, 30, 2021" };
+    this.state = { deadline: "Mar, 05, 2022" };
   }
   render() {
     return (

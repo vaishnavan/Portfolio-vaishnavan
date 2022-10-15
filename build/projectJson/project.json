@@ -1,0 +1,119 @@
+{
+    "data":[
+        {
+            "imgurl":"/images/webshine.png",
+            "desc":["Webshine Learning","MERN stack","Front-end: React","Back-end: Node.js","Database: MongoDB"],
+            "deploy":"https://webshinelearning.web.app/"
+        },
+        {
+            "imgurl":"/images/webshineportal.png",
+            "desc":["Webshine Portal","MERN stack","Front-end: React","Back-end: Node.js","Database: MongoDB"],
+            "deploy":"https://webshinelearning.web.app/"
+        },
+        {
+            "imgurl":"/images/insta.png",
+            "desc":["WebshineInsta","MERN stack","Front-end: React","Back-end: Node.js","Database: MongoDB"],
+            "deploy":"https://webshineinsta.netlify.app/"
+        },
+        {
+            "imgurl":"/images/sticky.png",
+            "desc":["Sticky Note","Front-end: React","Implementation: localstorage, moment.js, PWA(progressive web Application)"],
+            "deploy":"https://mysticky.netlify.app/"
+        },
+        {
+            "imgurl":"/images/gym.png",
+            "desc":["GYM Tracker","Front-end: React","Implementation: localstorage, moment.js, PWA(progressive web Application)"],
+            "deploy":"https://gymmoto.netlify.app/"
+        },
+        {
+            "imgurl":"/images/sip.png",
+            "desc":["SIP Calculator","Front-end: React","Implementation: localstorage, moment.js, PWA(progressive web Application)"],
+            "deploy":"https://mysipcalculator.netlify.app/"
+        },
+        {
+            "imgurl":"/images/game.png",
+            "desc":["Stone Paper Scissors","Front-end: React","Implementation: Audio, PWA(progressive web Application)"],
+            "deploy":"https://gametimes.netlify.app/"
+        },
+        {
+            "imgurl":"/images/music.png",
+            "desc":["Music Player","Front-end: React","Implementation: Audio, PWA(progressive web Application)"],
+            "deploy":"https://ejamyoomusic.netlify.app/"
+        },
+        {
+            "imgurl":"/images/hike.png",
+            "desc":["Hike Calculator","Front-end: React","Implementation: Math, PWA(progressive web Application)"],
+            "deploy":"https://hikecalc.netlify.app/"
+        },
+        {
+            "imgurl":"/images/age.png",
+            "desc":["Age and Days Calculator","Front-end: React","Implementation: Math, PWA(progressive web Application)"],
+            "deploy":"https://agedayscalculator.netlify.app/"
+        },
+        {
+            "imgurl":"/images/blog.png",
+            "desc":["Personal Blog","Front-end: React","Back-end: Node.js","Database: MongoDB","Implementation: PWA(progressive web Application)"],
+            "deploy":"https://vmpersonalblog.netlify.app/"
+        },
+        {
+            "imgurl":"/images/climate.png",
+            "desc":["Weather Display","Front-end: React","Implementation: PWA(progressive web Application)"],
+            "deploy":"https://weatherdictator.netlify.app/"
+        },
+        {
+            "imgurl":"/images/money.png",
+            "desc":["Money Manager","Front-end: React","Implementation: PWA(progressive web Application)"],
+            "deploy":"https://mymoneygoal.netlify.app/"
+        },
+        {
+            "imgurl":"/images/youstart.png",
+            "desc":["YouStarter","Front-end: React","Implementation: PWA(progressive web Application)"],
+            "deploy":"https://youstarter.netlify.app/"
+        },
+        {
+            "imgurl":"/images/portfolio.png",
+            "desc":["Portfolio","Front-end: React","Implementation: PWA(progressive web Application)"],
+            "deploy":"http://localhost:3000/project"
+        },
+        {
+            "imgurl":"/images/travel.png",
+            "desc":["Travels website","Front-end: HTML, CSS"],
+            "deploy":"https://travelswebsitedemo.netlify.app/"
+        },
+        {
+            "imgurl":"/images/fusion.png",
+            "desc":["Fusion Engineering","Front-end: HTML, CSS"],
+            "deploy":"https://fusionengg.netlify.app/"
+        },
+        {
+            "imgurl":"/images/calc.png",
+            "desc":["Calculator","Front-end: React"],
+            "deploy":"https://awesome-northcutt-e8046c.netlify.app//"
+        },
+        {
+            "imgurl":"/images/gallary.png",
+            "desc":["Unsplash Gallary","Front-end: React","Implementation: PWA(progressive web Application)"],
+            "deploy":"https://galleryproject5.netlify.app/"
+        },
+        {
+            "imgurl":"/images/sorting.png",
+            "desc":["Table Sorting","Front-end: React","Implementation: PWA(progressive web Application)"],
+            "deploy":"https://sortingtable.netlify.app/"
+        },
+        {
+            "imgurl":"/images/indeed.png",
+            "desc":["Indeed Clone","MERN stack","Front-end: React","Back-end: Node.js","Database: MongoDB"],
+            "deploy":"https://github.com/vaishnavan/Indeed-Clone"
+        },
+        {
+            "imgurl":"/images/covid.png",
+            "desc":["COVID-19 LiveTracker","React Project","Front-end: React","packages: Axios, MaterialUI, graph.js ..."],
+            "deploy":"https://github.com/vaishnavan/covid19tracker"
+        },
+        {
+            "imgurl":"/images/training.png",
+            "desc":["Training Acadamey","React Capstone project","Packages: Axios, graph.js, React-load-spinner, React-router-DOM etc.."],
+            "deploy":"https://github.com/vaishnavan/trainingAcadamey"
+        }
+    ]
+}

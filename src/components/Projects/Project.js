@@ -6,6 +6,8 @@ import Aos from 'aos';
 import './project.css';
 import '../../../node_modules/aos/dist/aos.css';
 import Comment from '../comments/Comment';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 class Project extends Component {
 
@@ -13,11 +15,20 @@ class Project extends Component {
         super(props)
 
         this.state = {
-            loading: false
+            loading: false,
+            myProjects:[]
         }
     }
 
     componentDidMount() {
+        axios.get("projectJson/project.json")
+        .then((res) => {
+            console.log(res.data.data);
+            this.setState({
+                myProjects:res.data.data
+            })
+        })
+
         this.setState({
             loading: true,
         })
@@ -35,7 +46,7 @@ class Project extends Component {
 
 
     render() {
-        const { loading } = this.state;
+        const { loading, myProjects } = this.state;
         return (
             <>
                 {loading &&
@@ -52,108 +63,30 @@ class Project extends Component {
                     <div>
                         <div className="project_topNav">
                             <div style={{ padding: "10px 0" }} className="project_main">
-                                <h2>Projects</h2>
+                                <h2>Projects-{myProjects.length}</h2>
                                 <hr />
-                                <div className="project_details">
-                                    <div className="project_image">
-                                        <img src="/images/indeed.png" alt="no" />
+                               {myProjects.map((data, i) => {
+                                   return(
+                                    <div data-aos="flip-up" key={i} className="project_details">
+                                        <div className="project_image">
+                                            <img src={data.imgurl} alt="no" />
+                                        </div>
+                                        <div className="project_content">
+                                            <h2>Project Description</h2>
+                                                {data.desc.map((data1,i) => {
+                                                    return(
+                                                        <ul key={i} type="circle">
+                                                            <li>{data1}</li>
+                                                        </ul>
+                                                    )
+                                                })}
+                                        </div>
+                                        <div className="live_preview">
+                                            <Link target="_blank" to={{pathname:`${data.deploy}`}}>View Project</Link>
+                                        </div>
                                     </div>
-                                    <div className="project_content">
-                                        <h2>Project Description</h2>
-                                        <ul type="circle">
-                                            <li>Indeed Clone</li>
-                                            <li>MERN stack</li>
-                                            <li>Front-end: React</li>
-                                            <li>Back-end: Node.js</li>
-                                            <li>Database: MongoDB</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div data-aos="flip-up" className="project_details">
-                                    <div className="project_image">
-                                        <img src="/images/covid.png" alt="no" />
-                                    </div>
-                                    <div className="project_content">
-                                        <h2>Project Description</h2>
-                                        <ul type="circle">
-                                            <li>COVID-19 LiveTracker</li>
-                                            <li>React Project</li>
-                                            <li>Front-end: React</li>
-                                            <li>packages: Axios, MaterialUI, graph.js ...</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div data-aos="flip-up" className="project_details">
-                                    <div className="project_image">
-                                        <img src="/images/training.png" alt="no" />
-                                    </div>
-                                    <div className="project_content">
-                                        <h2>Project Description</h2>
-                                        <ul type="circle">
-                                            <li>Training Acadamey</li>
-                                            <li>React Capstone project</li>
-                                            <li>Packages: Axios, graph.js, React-load-spinner, React-router-DOM etc..</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div data-aos="flip-up" className="project_details">
-                                    <div className="project_image">
-                                        <img src="/images/instagram.png" alt="no" />
-                                    </div>
-                                    <div className="project_content">
-                                        <h2>Project Description</h2>
-                                        <ul type="circle">
-                                            <li>Instagram clone</li>
-                                            <li>MERN stack</li>
-                                            <li>Front-end: React</li>
-                                            <li>Back-end: Node.js</li>
-                                            <li>Database: MongoDB</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div data-aos="flip-up" className="project_details">
-                                    <div className="project_image">
-                                        <img src="/images/card.png" alt="no" />
-                                    </div>
-                                    <div className="project_content">
-                                        <h2>Project Description</h2>
-                                        <ul type="circle">
-                                            <li>Card Designing</li>
-                                            <li>React Project</li>
-                                            <li>Front-end: React</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div data-aos="flip-up" className="project_details">
-                                    <div className="project_image">
-                                        <img src="/images/cricket.png" alt="no" />
-                                    </div>
-                                    <div className="project_content">
-                                        <h2>Project Description</h2>
-                                        <ul type="circle">
-                                            <li>CricketDB</li>
-                                            <li>MERN Stack</li>
-                                            <li>Front-end: React</li>
-                                            <li>Back-end: Node.js</li>
-                                            <li>Database: MongoDB</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div data-aos="flip-up" className="project_details">
-                                    <div className="project_image">
-                                        <img src="/images/moviedb.png" alt="no" />
-                                    </div>
-                                    <div className="project_content">
-                                        <h2>Project Description</h2>
-                                        <ul type="circle">
-                                            <li>MovieDB</li>
-                                            <li>MERN Stack</li>
-                                            <li>Front-end: React</li>
-                                            <li>Back-end: Node.js</li>
-                                            <li>Database: MongoDB</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                   )
+                               })}
                             </div>
                         </div>
                         <Comment />

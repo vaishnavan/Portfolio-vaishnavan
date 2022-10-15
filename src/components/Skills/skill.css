@@ -27,8 +27,35 @@
     margin: 20px -10px;
 
 }
+.certification_main{
+    width: 900px;
+    margin: 0 auto;
+}
+.certification_main hr{
+    background-color:  rgb(28, 104, 245);
+    height: 5px;
+    width: 60px;
+    margin: 0;
+    border-radius: 4px;
+}
+.display_img{
+    text-align: center;
+}
+.display_img img{
+    width: 550px;
+    height: 350px;
+    border: 1px solid rgb(216, 216, 216);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.certify_img{
+    margin-top: 30px;
+}
 @media screen and (max-width:992px){
     .skill_container{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .certification_main{
         width: 700px;
         margin: 0 auto;
     }
@@ -42,6 +69,10 @@
     .skillsMain{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .certification_main{
+        width: 500px;
+        margin: 0 auto;
     }
 }
 .skill_container h1{
@@ -57,9 +88,23 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .certification_main{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .display_img img{
+        width: 300px;
+        height: 220px;
+        border: 1px solid rgb(216, 216, 216);
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
 }
 @media screen and (max-width:350px){
     .skill_container{
+        width: 180px;
+        margin: 0 auto;
+    }
+    .certification_main{
         width: 180px;
         margin: 0 auto;
     }
@@ -70,5 +115,11 @@
     .skills_head{
         margin: 0 auto;
     
+    }
+    .display_img img{
+        width: 230px;
+        height: 150px;
+        border: 1px solid rgb(216, 216, 216);
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
 }

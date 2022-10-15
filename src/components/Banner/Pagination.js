@@ -18,7 +18,7 @@ class Pagination extends Component {
         setInterval(()=>{
             this.setState({
                 dev:"REACT",
-                fullStack:'Web Devloper'
+                fullStack:'front-End Devloper'
             })
         },5000)
         Aos.init({

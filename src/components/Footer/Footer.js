@@ -16,7 +16,7 @@ class Footer extends Component {
                     <div className="footer_links">
                         <Link to={{pathname:"https://github.com/vaishnavan"}} target="_blank"><Icon name="github" size="large" /></Link>
                         <Link to={{pathname:"https://www.instagram.com/sakthi_ns_pulsar_5/"}} target="_blank"><Icon name="instagram" size="large" /></Link>
-                        <Link to={{pathname:"https://www.linkedin.com/in/sakthi-born-to-win-b13956178/"}} target="_blank"><Icon name="linkedin" size="large" /></Link>
+                        <Link to={{pathname:"https://www.linkedin.com/in/vaishnavan-m-60005a1b5/"}} target="_blank"><Icon name="linkedin" size="large" /></Link>
                     </div>
                     <div className="footer-contact">
                         <p>+91 9047609410</p>

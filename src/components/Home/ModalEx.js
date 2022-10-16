@@ -40,7 +40,7 @@ function ModalEx () {
           </p>
           <p>
             <Icon name='mail' size='large' color='blue' />
-            sakthi4645@gmail.com
+            vaishnavanm5@gmail.com
           </p>
           <p>
             <Icon name='phone' size='large' color='blue' />

@@ -16,6 +16,11 @@
             "deploy":"https://webshineinsta.netlify.app/"
         },
         {
+            "imgurl":"/images/projecttracker.png",
+            "desc":["Project Tracker","Front-end: React","Implementation: localstorage, moment.js, PWA(progressive web Application)"],
+            "deploy":"https://myprojecttracker.netlify.app/"
+        },
+        {
             "imgurl":"/images/sticky.png",
             "desc":["Sticky Note","Front-end: React","Implementation: localstorage, moment.js, PWA(progressive web Application)"],
             "deploy":"https://mysticky.netlify.app/"
@@ -34,6 +39,11 @@
             "imgurl":"/images/game.png",
             "desc":["Stone Paper Scissors","Front-end: React","Implementation: Audio, PWA(progressive web Application)"],
             "deploy":"https://gametimes.netlify.app/"
+        },
+        {
+            "imgurl":"/images/fungames.png",
+            "desc":["Secret Finder","Front-end: React","Implementation: Audio, PWA(progressive web Application)"],
+            "deploy":"https://myfungames.netlify.app/"
         },
         {
             "imgurl":"/images/music.png",
@@ -73,7 +83,7 @@
         {
             "imgurl":"/images/portfolio.png",
             "desc":["Portfolio","Front-end: React","Implementation: PWA(progressive web Application)"],
-            "deploy":"http://localhost:3000/project"
+            "deploy":"https://vaishnavanmresume.web.app/"
         },
         {
             "imgurl":"/images/travel.png",

@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { tomorrowNight } from 'react-syntax-highlighter/dist/esm/styles/hljs'
+import ResumePdf from '../Resumepdf/ResumePdf'
 import Count from '../SkillCountdown/Count'
 import './content.css'
 
@@ -26,15 +27,13 @@ class Content extends Component {
         </div>
         <div className='content_bannerScroll'>
           <marquee>
-            React 17 is primarily focused on making it easier to upgrade React
-            itself. Though it is unusual that there are no developer-facing
-            features in this update, the main objective of this release is to
-            make sure it is safe to embed a tree managed by one version of React
-            inside a tree managed by another version of React. The React
-            developer team calls this a “stepping stone” release.
+          When it’s released, React 18 will include out-of-the-box improvements (like automatic batching), new APIs (like startTransition), and a new streaming server renderer with built-in support for React.lazy.
           </marquee>
         </div>
         <Count />
+        <div>
+        <ResumePdf />
+        </div>
         <div className='content_aboutReact'>
           <h2>What is react?</h2>
           <hr />

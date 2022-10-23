@@ -23,7 +23,6 @@ class Project extends Component {
     componentDidMount() {
         axios.get("projectJson/project.json")
         .then((res) => {
-            console.log(res.data.data);
             this.setState({
                 myProjects:res.data.data
             })

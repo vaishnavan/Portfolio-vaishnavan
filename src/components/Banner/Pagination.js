@@ -39,7 +39,7 @@ class Pagination extends Component {
                         <ModalEx />
                     </div>
                     <div data-aos="fade-up" className="banner_img">
-                        <img src="/images/work.png" alt="no" />
+                        <img src="/images/workbanner.jpg" alt="no" />
                     </div>
                 </div>
 

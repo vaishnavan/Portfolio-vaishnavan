@@ -1,32 +1,32 @@
-import React, { Component } from 'react'
-import Loader from 'react-loader-spinner'
-import Footer from '../Footer/Footer'
-import Navbar from '../navbarMain/Navbar'
-import './education.css'
-import Inspriation from './Inspriation/Inspriation'
+import React, { Component } from "react";
+import Loader from "react-loader-spinner";
+import Footer from "../Footer/Footer";
+import Navbar from "../navbarMain/Navbar";
+import "./education.css";
+import Inspriation from "./Inspriation/Inspriation";
 
 class Education extends Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.state = {
       loading: false,
-    }
+    };
   }
 
   componentDidMount() {
     this.setState({
       loading: true,
-    })
+    });
     let timer = setTimeout(() => {
       this.setState({
         loading: false,
-      })
-    }, 2000)
-    return () => clearTimeout(timer)
+      });
+    }, 2000);
+    return () => clearTimeout(timer);
   }
   render() {
-    const { loading } = this.state
+    const { loading } = this.state;
     return (
       <>
         {loading && (
@@ -45,18 +45,35 @@ class Education extends Component {
         {!loading && (
           <div>
             <div className="qualification_Topnav">
-              <div style={{ padding: '10px 0' }} className="education_main">
+              <div style={{ padding: "10px 0" }} className="education_main">
                 <h2>Professional Experience</h2>
                 <hr />
+                <div
+                  style={{ marginTop: "15px" }}
+                  className="education_proExpericence"
+                >
+                  {/* <h2>Professional Experience</h2>
+                            <hr /> */}
+                  <h3>HTC Global Services</h3>
+                  <label>AUG 2023 - Present</label>
+                  <br />
+                  <br />
+                  <label>Chennai, Tamilnadu</label>
+                  <ul type="circle">
+                    <li>Project:- IDP</li>
+                    <li>Domain:- Education</li>
+                    <li>Role:- React and Nextjs Developer</li>
+                  </ul>
+                </div>
 
                 <div
-                  style={{ marginTop: '15px' }}
+                  style={{ marginTop: "15px" }}
                   className="education_proExpericence"
                 >
                   {/* <h2>Professional Experience</h2>
                             <hr /> */}
                   <h3>Cybage Software</h3>
-                  <label>2021 - Present</label>
+                  <label>OCT 2021 - JUL 2023</label>
                   <br />
                   <br />
                   <label>Hyderabad, Telangana</label>
@@ -116,13 +133,13 @@ class Education extends Component {
                 </div>
 
                 <div
-                  style={{ marginTop: '15px' }}
+                  style={{ marginTop: "15px" }}
                   className="education_proExpericence"
                 >
                   {/* <h2>Professional Experience</h2>
                             <hr /> */}
                   <h3>INFOSYS(INFOSYS PVT LTD)</h3>
-                  <label>2020-2021</label>
+                  <label>OCT 2020- OCT 2021</label>
                   <br />
                   <br />
                   <label>Bangalore, Karnataka</label>
@@ -160,7 +177,7 @@ class Education extends Component {
                   {/* <h2>Professional Experience</h2>
                             <hr /> */}
                   <h3>INFOSYS(INFOSYS PVT LTD)</h3>
-                  <label>2020-Job</label>
+                  <label>OCT 2019- OCT 2020</label>
                   <br />
                   <br />
                   <label>Chengalpattu, Tamilnadu</label>
@@ -176,7 +193,7 @@ class Education extends Component {
                 </div>
                 <div className="education_proExpericence">
                   <h3>INFOSYS(INFOSYS PVT LTD)</h3>
-                  <label>2019-Training</label>
+                  <label>OCT 2019-Training</label>
                   <br />
                   <br />
                   <label>Mysore, Karnataka</label>
@@ -237,8 +254,8 @@ class Education extends Component {
           </div>
         )}
       </>
-    )
+    );
   }
 }
 
-export default Education
+export default Education;

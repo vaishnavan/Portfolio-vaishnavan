@@ -26,7 +26,7 @@ export class SkillGraph extends Component {
                     pointHoverBorderWidth: 2,
                     pointRadius: 1,
                     pointHitRadius: 10,
-                    data: [95, 80, 75, 90, 68],
+                    data: [95, 80, 95, 90, 88],
                 },
             ],
         };
